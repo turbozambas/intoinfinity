@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <title>INTO INFINITY</title>
+        <meta name="author" content="Rui Pedro Moreira">
+        <meta name="description" content="bitcoin into infinity">
+        <meta name="keywords" content="Bitcoin, BTC">
+        <link rel="icon" type="image/png" href="assets/png/bitcoin.png" sizes="32x32">
+        <script src="vendor/js/jquery.js"></script>
+        <script src="vendor/js/bootstrap.min.js"></script>
+        <script src="vendor/js/jquery.canvasjs.min.js"></script>
+        <link rel="stylesheet" href="vendor/css/reset.css">
+        <link rel="stylesheet" href="vendor/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <nav>
+            <a class="navbar-brand" href="index.html"><div class="nav d-flex justify-content-center"><img src="assets/png/bitcoin.png" width="50" height="50"><h1>INTO INFINITY</h1></div></a>
+        </nav>
+        <content>
+            <div class="title"><h2>The Bitcoin Cycles</h2></div>
+            <div class="chartwrapper"><div class="chart"></div></div>
+            <div class="chartinfo"></div>
+        </content>
+        <content>
+            <div class="title"><h2>Halving Events</h2></div>
+            <div class="info">
+                <p>New coins are issued by the Bitcoin protocol roughly every 10 minutes, depending on mining difficulty and network hashrate.</p>
+                <p>Halving events occur every 210,000 blocks, or roughly every 4 years. This is when the block reward is cut by half.</p>
+                <p>On Jan 3 2009 the first block to ever be mined was the Genesis Block (#0) which yielded a 50 BTC reward.</p>
+            </div>
+        </content>
+        <content>
+            <div class="title"><h2>Historic Prices</h2></div>
+            <div class="table-wrapper">
+                <table class="table table-sm table-striped table-dark overflow-auto">
+                    <thead class="thead">
+                        <tr>
+                            <th>Week</th>
+                            <th>Close</th>
+                            <th>Open</th>
+                            <th>High</th>
+                            <th>Low</th>
+                            <th>Change</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bitcoin_historical_prices"></tbody>
+                </table>
+            </div>
+        </content>
+        <footer>
+            <p>updated on Dec 18th 2023</p>
+        </footer>
+    </body>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/halvings.js"></script>
+    <script src="assets/js/main.js"></script>
+</html>
