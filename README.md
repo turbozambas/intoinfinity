@@ -1,1 +1,1 @@
-Into Infinity · 2023 - 2024 · https://intoinfinity.netlify.app
+Bitcoin · BTC · Into Infinity · https://intoinfinity.netlify.app
