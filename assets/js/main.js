@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function(event){
     chart_width = $(".chart").width();
     chart_height = chart_width*0.5;
     $(".chart").height(chart_height);
-    $(".chartwrapper").height(chart_height-12);
+    $(".chartwrapper").height(chart_height-10);
     $("div").width(chart_width);
 });
 
