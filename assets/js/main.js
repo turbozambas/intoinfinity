@@ -1,11 +1,11 @@
 chart_colors = ["#5B8E7D", "#BC4B51", "#F4A259", "#F4E285", "#8CB369"];
 stripLines = [];
-dates = data.Date;
-prices = data.Price;
-open = data.Open;
-high = data.High;
-low = data.Low;
-changes = data.Change;
+dates = weekly.Date;
+prices = weekly.Price;
+open = weekly.Open;
+high = weekly.High;
+low = weekly.Low;
+changes = weekly.Change;
 halving = [new Date("Jan 3, 2009")];
 reward = 50;
 chartPoints = []
@@ -39,7 +39,7 @@ for (l=1;l <= halving.length; l++) {
 }
 
 // POPULATE HTML
-for (i=Object.keys(data.Date).length-2; i >= 0; i--) {
+for (i=Object.keys(weekly.Date).length-2; i >= 0; i--) {
 
     // COLORIZE THESE VALUES
     change = changes[i].slice(0,-1);
