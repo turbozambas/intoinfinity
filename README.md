@@ -1,1 +1,1 @@
-Bitcoin · BTC · Into Infinity · https://intoinfinity.netlify.app
+Bitcoin · Into Infinity · https://rpdorm.github.io/intoinfinity/

@@ -30,8 +30,8 @@ for (l=1;l <= halving.length; l++) {
         value: halving[l],
         color:"#adb5bd",
         label: "HALVING #" + l,
-        labelFontFamily: "Courier",
-        labelFontSize: 16,
+        labelFontFamily: "Arial",
+        labelFontSize: 15,
         labelFontColor: "#adb5bd",
         labelAlign: "near",
         lineDashType: "dash"
@@ -98,7 +98,7 @@ window.onload = function () {
             labelFontFamily: "system-ui",
             labelFontSize: 16,
             labelFontColor: "#adb5bd",
-            gridDashType: "dot"
+            gridDashType: "line"
         },
         data: [{
             yValueFormatString: "$#,###.##0",
